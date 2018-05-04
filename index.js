@@ -231,5 +231,5 @@ bot.on('message', (message) => {
    '!fs traje profesion' + '\n');
  }
 });
-client.login(process.env.NDQxNTExNzUwOTkxNDc4Nzg3.DcxVjQ.GVwFlmXnP5J9EPA9o1WSDZZ9YLM);
+client.login(process.env.BOT_TOKEN);
 
