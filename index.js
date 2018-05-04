@@ -9,7 +9,7 @@ bot.on('message', (message) => {
    'TET: +45 (max 90)' + '\n' + 
    'PEN: max 124');
  }
- if (member = 'Mikel(LeMMik)'){
+ if (message.author = 'Mikel(LeMMik)'){
   message.channel.sendMessage('Guapeton');
  }
  if (message.content == '!fs joyeria amarilla' || message.content == '!fs joyeria boss' || message.content == '!fs yellow accessories') {
