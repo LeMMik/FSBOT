@@ -7,8 +7,10 @@ bot.on('message', (message) => {
    'DUO: 25-30 (max 35)' + '\n' + 
    'TRI: 35-40 (max 45)' + '\n' + 
    'TET: +45 (max 90)' + '\n' + 
-   'PEN: max 124' + '\n' +
-   'Prueba');
+   'PEN: max 124');
+ }
+ if (member = 'Mikel(LeMMik)'){
+  message.channel.sendMessage('Guapeton');
  }
  if (message.content == '!fs joyeria amarilla' || message.content == '!fs joyeria boss' || message.content == '!fs yellow accessories') {
   message.channel.sendMessage('PRI: 25 (max 25)' + '\n' + 
