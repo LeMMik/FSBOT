@@ -10,7 +10,7 @@ bot.on('message', (message) => {
    'PEN: max 124');
  }
  if ((message.content == '!fs joyeria amarilla' || message.content == '!fs joyeria boss' 
-     || message.content == '!fs yellow accessories') && message.author == 'Mikel(LeMMik)') {
+     || message.content == '!fs yellow accessories') && message.author = 'Mikel(LeMMik)') {
   message.channel.sendMessage('PRI: 25 (max 25)' + '\n' + 
    'DUO: 35 (max 35)' + '\n' + 
    'TRI: 45 (max 45)' + '\n' + 
